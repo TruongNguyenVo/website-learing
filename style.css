@@ -475,5 +475,114 @@ body {
   margin-top: -5px;
 }
 
+/*phần newsletter*/
+
+#newsletter{
+  display: flex;
+  background-image: url("img/banner/b1.jpg");
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-size: cover;
+
+}
+
+#newsletter .newstext h4{
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: -7px;
+}
+
+#newsletter .newstext h2{
+  color: #ffff;
+  font-weight: 600;
+  font-size: 25px;
+}
+#newsletter .newstext h4 span{
+  color: #ffbd27;
+}
+/*khung 'your email address' và 'sign nằm trên một hàng'*/
+
+#newsletter .form{
+  display: flex;
+  width: 40%;
+}
+#newsletter input{
+  height: 3.125rem;
+  padding: 0 1.25rem;
+  font-size: 14px;
+  width: 100%;
+  border:1px solid transparent;
+  outline: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#newsletter button{
+  border-radius: 0px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #088178;
+  color: #ffff;
+  white-space: nowrap;
+  height: 3.125rem;
+}
+
+/*phần footer*/
+footer .col{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .col h4{
+  font-size: 20px;
+}
+footer .col a{
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0;
+  font-size: 15px;
+  text-decoration: none; /*xóa underline chữ*/
+  color: #000;
+}
+footer .col .follow .icon{
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+/*  padding-right: 100px;*/
+}
+footer .col .install, .pay{
+  cursor: pointer;
+}
+footer .col .install img{
+  border: 1px solid #088178;
+  border-radius: 8px;
+}
+footer .col .contact{
+  padding-top: -10px;
+}
+footer .col .contact h4{
+  font-size: 18px;
+}
+
+footer .col .contact p{
+  font-size: 15px;
+}
+footer .col .contact img{
+  padding-bottom: 15px;
+}
+
+footer .col .installApp{
+  padding-top: 35px;
+}
+
+
+
+
+
+
 
 
